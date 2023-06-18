@@ -17,7 +17,6 @@ const TransactionDataBlockChain = () => {
       if (cachedData && cachedTimestamp && currentTime - parseInt(cachedTimestamp) < CACHE_EXPIRATION) {
         // Use cached data if it exists and hasn't expired
         setData(JSON.parse(cachedData));
-        console.log(JSON.parse(cachedData))
       } else {
         try {
           const response = await axios.get('https://api.dune.com/api/v1/query/2632324/results?api_key=piyMny0VjuHCs1Mk5KLTXCwOpclpXcvQ');

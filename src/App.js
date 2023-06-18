@@ -8,6 +8,7 @@ import GasFees from './GasFees';
 import AvgFeesData from './AvgFeesData';
 import TransactionDataBlockChain from './TransactionDataBlockChain';
 import TransactionData from './TransactionData';
+import NftTradesByChain from './NftTradesByChain';
 function App() {
   return (
     <div className="app-container">
@@ -33,7 +34,10 @@ function App() {
         <TransactionDataBlockChain />
     </div>
     <div className="chart-container">
-    <TransactionData/>
+        <TransactionData/>
+    </div>
+    <div className="chart-container">
+        <NftTradesByChain/>
     </div>
     </div>
   );

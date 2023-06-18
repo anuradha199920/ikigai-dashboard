@@ -20,12 +20,12 @@ const EthereumWalletDataFetcher = () => {
       }
 
       // Fetch new data
-      const response = await axios.get('https://api.dune.com/api/v1/query/2203050/results?api_key=piyMny0VjuHCs1Mk5KLTXCwOpclpXcvQ');
+      const response = await axios.get("https://api.dune.com/api/v1/query/2644593/results?api_key=piyMny0VjuHCs1Mk5KLTXCwOpclpXcvQ");
       let rows = response.data.result.rows;
 
       // Format the Date strings
       rows = rows.map(row => {
-        const date = row.day.split(' ')[0]; // Keep only the YYYY-MM-DD part
+        const date = row.time.split(' ')[0]; // Keep only the YYYY-MM-DD part
         return { ...row, date: date };
       });
 
@@ -41,14 +41,17 @@ const EthereumWalletDataFetcher = () => {
   }, []);
 
   const dataKeys = [
-    { dataKey: 'active_wallets', strokeColor: '#20E3B2', label: 'Ethereum Users' }
+    { dataKey: 'ethereum_addresses', strokeColor: '#20E3B2', label: 'Ethereum' },
+        { dataKey: 'polygon_addresses', strokeColor: '#E31B6D', label: 'Polygon' },
+        { dataKey: 'arbitrum_addresses', strokeColor: '#F4E542', label: 'Arbitrum' },
+        { dataKey: 'optimism_addresses', strokeColor: '#F27935', label: 'Optimism' },
   ];
 
   return (
     <CustomizedChart
       data={data}
       dataKeys={dataKeys}
-      heading="Ethereum Active Addresses"
+      heading="Ethereum & L2 Active Addresses"
     />
   );
 };

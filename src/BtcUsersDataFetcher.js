@@ -27,7 +27,6 @@ const BtcUsersDataFetcher = () => {
       // Format the Date strings
       rows = rows.map(row => {
         const time = row.time.split(' ')[0]; // Keep only the YYYY-MM-DD part
-        console.log(time);
         return { ...row, date: time };
       });
 

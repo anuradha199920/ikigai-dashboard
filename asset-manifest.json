@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/ikigai-dashboard/static/css/main.42949361.css",
-    "main.js": "/ikigai-dashboard/static/js/main.b82c4d5b.js",
+    "main.js": "/ikigai-dashboard/static/js/main.c51d3a01.js",
     "static/js/787.9e55bb0b.chunk.js": "/ikigai-dashboard/static/js/787.9e55bb0b.chunk.js",
     "index.html": "/ikigai-dashboard/index.html",
     "main.42949361.css.map": "/ikigai-dashboard/static/css/main.42949361.css.map",
-    "main.b82c4d5b.js.map": "/ikigai-dashboard/static/js/main.b82c4d5b.js.map",
+    "main.c51d3a01.js.map": "/ikigai-dashboard/static/js/main.c51d3a01.js.map",
     "787.9e55bb0b.chunk.js.map": "/ikigai-dashboard/static/js/787.9e55bb0b.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.42949361.css",
-    "static/js/main.b82c4d5b.js"
+    "static/js/main.c51d3a01.js"
   ]
 }

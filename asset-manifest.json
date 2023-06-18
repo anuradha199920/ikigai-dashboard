@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/ikigai-dashboard/static/css/main.42949361.css",
+    "main.js": "/ikigai-dashboard/static/js/main.4fc68895.js",
+    "static/js/787.9e55bb0b.chunk.js": "/ikigai-dashboard/static/js/787.9e55bb0b.chunk.js",
+    "index.html": "/ikigai-dashboard/index.html",
+    "main.42949361.css.map": "/ikigai-dashboard/static/css/main.42949361.css.map",
+    "main.4fc68895.js.map": "/ikigai-dashboard/static/js/main.4fc68895.js.map",
+    "787.9e55bb0b.chunk.js.map": "/ikigai-dashboard/static/js/787.9e55bb0b.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.42949361.css",
+    "static/js/main.4fc68895.js"
+  ]
+}
